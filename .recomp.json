@@ -1,0 +1,13 @@
+{
+  "$schema": "https://recomp.fyi/schema/v1.json",
+  "game": "Secret of Evermore",
+  "system": "SNES",
+  "type": "decomp",
+  "original": { "region": "Europe", "revision": "1.0", "sha1": "ae17166919fdfdf26cc5771f83cfd19eaf71806c" },
+  "project": "Secret of Evermore reverse engineering",
+  "status": "exploring",
+  "approach": "Documented ROM formats, Ghidra labels and Python extractors; no buildable source yet",
+  "maintainers": [{ "name": "maluramichael", "link": "https://github.com/maluramichael" }],
+  "help": ["Opcode 7 codec on all maps", "Script opcode semantics", "US ROM offsets"],
+  "notes": "Europe/PAL ROM. Maps, sprites, text, scripts and compression are documented; audio is partial. Ships no game data."
+}

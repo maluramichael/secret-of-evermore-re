@@ -1,0 +1,20 @@
+# ROMs are never committed
+*.sfc
+*.smc
+*.zip
+
+# Everything extracted or dumped from a ROM (copyrighted)
+/assets/
+/build/
+/third_party/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Emulator and tool output
+*.log
+*.spc
+*.bin
+.DS_Store
